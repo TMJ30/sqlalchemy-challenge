@@ -3,28 +3,35 @@
 Instructions
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
 
-# Part 1: Analyze and Explore the Climate Data
+# Analyze and Explore the Climate Data
 
-Precipitation Analysis
-Find the most recent date in the dataset.
+Part 1: Precipitation Analysis
 
-Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
+1.) Find the most recent date in the dataset.
 
-Load the query results into a Pandas DataFrame. Explicitly set the column names.
+2.) Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 
-Sort the DataFrame values by "date".
+3.) Load the query results into a Pandas DataFrame. Explicitly set the column names.
 
-Plot the results by using the DataFrame plot method, as the following image shows:
+5.) Sort the DataFrame values by "date".
 
-Use Pandas to print the summary statistics for the precipitation data.
+6.) Plot the results by using the DataFrame plot method, as the following image shows:
 
-# Station Analysis
+7.) Use Pandas to print the summary statistics for the precipitation data.
 
-Design a query to calculate the total number of stations in the dataset.
+# Part 1: Station Analysis
 
-Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
+1.) Design a query to calculate the total number of stations in the dataset.
 
-List the stations and observation counts in descending order.
+2.) Design a query to find the most-active stations (that is, the stations that have the most rows).
+
+3.) Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
+
+4.) Design a query to get the previous 12 months of temperature observation (TOBS) data. 
+
+# Part 2: Design Your Climate App
+
+Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed
 
 #*CODE BORROWED FROM PROFESSOR*
 
