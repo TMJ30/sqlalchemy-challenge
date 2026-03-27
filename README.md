@@ -27,4 +27,6 @@ Routes
 | `/` | List all the available routes |
 | `/api/v1.0/precipitation` | Last 12 months precipitation |
 | `/api/v1.0/stations` | List of stations |
-| `/api/v1.0/tobs` | List of dates and temperature of most-active station |
+| `/api/v1.0/tobs` | Temperature observations (last year) |
+| `/api/v1.0/<start>` | Temperature stats from start date |
+| `/api/v1.0/<start>/<end>` | Temperature stats for date range |
