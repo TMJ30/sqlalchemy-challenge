@@ -21,6 +21,8 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 * Visualized distribution with a histogram
 
 ## Flask API
+**Run the app**
+`python app.py`
 **Routes**
 | Route | Description |
 |-------|-------------|
