@@ -10,7 +10,6 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 * Retrieved last 12 months of precipitation data
 * Organized results into a DataFrame and sorted by date
 * Visualize trends and generated summary statistics
-
 **Stations**
 * Calculated total number of stations
 * Identified the most active station (highest observations)
