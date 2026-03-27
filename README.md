@@ -22,4 +22,4 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 
 ## Flask API
 Routes
-* / -> List all routes
+* '/' -> List all routes
