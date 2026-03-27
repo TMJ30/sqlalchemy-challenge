@@ -20,3 +20,6 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 * Retrieved last 12 months of temperature observations
 * Visualized distribution with a histogram
 
+## Flask API
+Routes
+* / -> List all routes
