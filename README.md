@@ -22,7 +22,8 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 
 ## Flask API
 **Run the app**
-`python app.py`
+<pre> ```bash python app.py ``` </pre>
+
 **Routes**
 | Route | Description |
 |-------|-------------|
