@@ -24,4 +24,7 @@ In addition to the exploratory analysis, a Flask-based API is develop to make th
 Routes
 | Route | Description |
 |-------|-------------|
-| '/' | List all the available routes |
+| `/` | List all the available routes |
+| `/api/v1.0/precipitation` | Last 12 months precipitation |
+| `/api/v1.0/stations` | List of stations |
+| `/api/v1.0/tobs` | List of dates and temperature of most-active station |
